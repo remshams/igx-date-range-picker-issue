@@ -1,1 +1,4 @@
-<igx-date-range-picker></igx-date-range-picker>
+<igx-date-range-picker
+  [value]="range"
+  [disabled]="!!(disabled$ | async)"
+></igx-date-range-picker>
